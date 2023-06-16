@@ -3574,7 +3574,7 @@ Object {
           "S3Bucket": Object {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "67a7f982847312f00fe63a7caafa9e6daaa88c8fb1a0a471e5a41bbf18d1aab6.zip",
+          "S3Key": "98effc986b072898fe17ecc0600beeeedf436062b164c8406254bed61d7a3efa.zip",
         },
         "Description": "Supabase - Database migration function",
         "Environment": Object {
@@ -3853,7 +3853,7 @@ Object {
           "S3Bucket": Object {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "0facf62e98b9e41309a759dcee61e370003b40a5402e2f2c8f74308681c96fe3.zip",
+          "S3Key": "592b32bdbee615b5d18c142caf8766da893685ebf5164c8bb5eb8e79e9060d55.zip",
         },
         "Description": "Supabase - DB user password function",
         "Environment": Object {
@@ -9299,7 +9299,7 @@ applications:
           "Size": 3072,
         },
         "Handler": "index.handler",
-        "MemorySize": 3072,
+        "MemorySize": 3008,
         "Role": Object {
           "Fn::GetAtt": Array [
             "StudioRepositoryImportFunctionServiceRoleC6B8ED58",
